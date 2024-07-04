@@ -36,7 +36,7 @@ local.properties
 
 # node.js
 #
-node_modules/
+./node_modules/
 npm-debug.log
 yarn-error.log
 
@@ -68,6 +68,8 @@ yarn-error.log
 # Yarn
 .yarn/*
 !.yarn/patches
+!.yarn/cache
+!.yarn/unplugged
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
